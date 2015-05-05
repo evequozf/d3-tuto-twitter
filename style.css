@@ -1,0 +1,61 @@
+body {
+  font: 11px Raleway;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+	fill: #999;
+}
+
+.dot {
+  fill-opacity: 0;
+  stroke: black;
+  stroke-width: 1.25;
+}
+
+div.tooltip {   
+  width: 350px;
+  max-width: 350px;
+  position: absolute;           
+  text-align: left;
+  vertical-align: middle;                           
+  padding: 10px;             
+  font: 8px;        
+  background: #fff;
+  border: 1px solid lightgray;      
+  pointer-events: none;   
+  box-shadow: 2px 2px 5px #AAAAAA;  
+}
+
+.tooltip .name {
+  font-weight: bold;
+  font-size: 12px;
+  font-variant:caps;
+}
+
+.tooltip .date {
+  font-style:italics;
+}
+
+.tooltip .tweet {	
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: larger;
+	color: #00AAf3; //twitter blue
+	//color: #fff;
+}
+
+.tooltip table {
+  margin:0px;
+  padding-left:0px;
+}
+
+.tooltip table td {
+  padding-right:3px;
+}
